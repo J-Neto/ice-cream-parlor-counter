@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
     );
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/background.jpg'),
+            image: AssetImage('assets/images/background.png'),
             fit: BoxFit.cover,
           ),
         ),
@@ -88,7 +88,8 @@ class _HomePageState extends State<HomePage> {
                 child: Text(
                   '$count',
                   style: TextStyle(
-                    fontSize: 100,
+                    // fontFamily: 'Didatic Gothic',
+                    fontSize: 150,
                     color: isFull ? Colors.red : Colors.blueAccent,
                   ),
                 )),
