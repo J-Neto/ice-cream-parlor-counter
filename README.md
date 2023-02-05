@@ -33,7 +33,9 @@ Features
 
 Preview
 =======================
-Soon...
+<p align="center">
+  <img alt="Preview Ice Cream Parlor Counter" src="https://github.com/J-Neto/ice-cream-parlor-counter/blob/master/demo-gif.gif">
+</p>
 
 Requirements
 =======================
